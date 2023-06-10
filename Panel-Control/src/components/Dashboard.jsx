@@ -4,6 +4,7 @@ import TotalOrders from './TotalOrders';
 import TotalRevenue from './TotalRevenue';
 import AveragePrice from './AveragePrice';
 import BestSellingProducts from './BestSellingProducts';
+import dashboard from '../assets/dashboard.png';
 
 const Dashboard = () => {
   const [data, setData] = useState(null);
@@ -18,15 +19,15 @@ const Dashboard = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Panel de Control</h1>
+    <div className="dashboard-page">
+      <img src={dashboard} className="dashboard.img"></img>
       {data ? (
         <div className="card-panel-container">
           <div className="card">
           <TotalProducts products={data.products} />
           </div>  
 
-          <div className="cardorders">
+          <div className="card">
           <TotalOrders orders={data.orders} />
           </div>
 
