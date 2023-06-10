@@ -7,7 +7,7 @@ const AveragePrice = ({ products }) => {
 
   return (
     <div>
-      <h2>Precio promedio de los productos</h2>
+      <h2>Average Price</h2>
       <p>${averagePrice}</p>
     </div>
   );

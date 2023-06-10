@@ -4,8 +4,8 @@ const TotalOrders = ({ orders }) => {
   const totalOrders = orders.length;
 
   return (
-    <div>
-      <h2>Total de pedidos realizados</h2>
+    <div className="total-orders-title">
+      <h2>Total Orders</h2>
       <p>{totalOrders}</p>
     </div>
   );

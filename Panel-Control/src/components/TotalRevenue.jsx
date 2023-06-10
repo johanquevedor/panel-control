@@ -5,7 +5,7 @@ const TotalRevenue = ({ orders }) => {
 
   return (
     <div>
-      <h2>Ingresos totales generados</h2>
+      <h2>Total Revenue</h2>
       <p>${totalRevenue}</p>
     </div>
   );

@@ -5,7 +5,7 @@ const TotalProducts = ({ products }) => {
 
   return (
     <div>
-      <h2>Total de productos</h2>
+      <h2>Total Products</h2>
       <p>{totalProducts}</p>
     </div>
   );

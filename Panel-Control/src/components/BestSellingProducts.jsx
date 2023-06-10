@@ -11,11 +11,11 @@ const BestSellingProducts = ({ products, orders }) => {
 
   return (
     <div>
-      <h2>Productos más vendidos</h2>
+      <h2></h2>
       <ul>
         {sortedProducts.map((product) => (
           <li key={product.id}>
-            {product.name} - Vendidos: {getProductOrdersCount(product.id)}
+            {product.name} - Sold: {getProductOrdersCount(product.id)}
           </li>
         ))}
       </ul>
