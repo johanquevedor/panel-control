@@ -1,0 +1,103 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Iphone 14 pro max",
+        "price": 1499
+      },
+      {
+        "id": 2,
+        "name": "Iphone 14 pro",
+        "price": 1299
+      },
+      {
+        "id": 3,
+        "name": "Iphone 14 plus",
+        "price": 1099
+      },
+      {
+        "id": 4,
+        "name": "Iphone 14",
+        "price": 999
+      },
+      {
+        "id": 5,
+        "name": "Galaxy S23 Ultra",
+        "price": 1399
+      },
+      {
+        "id": 6,
+        "name": "Galaxy S23",
+        "price": 1199
+      },
+      {
+        "id": 7,
+        "name": "Galaxy S22 Ultra",
+        "price": 1299
+      },
+      {
+        "id": 8,
+        "name": "Galaxy S22",
+        "price": 1099
+      },
+      {
+        "id": 9,
+        "name": "Xiaomi 13 Pro",
+        "price": 999
+      },
+      {
+        "id": 10,
+        "name": "Xiaomi 13",
+        "price": 899
+      },
+      {
+        "id": 11,
+        "name": "Xiaomi 12S Pro",
+        "price": 799
+      },
+      {
+        "id": 12,
+        "name": "Xiaomi 12S Ultra",
+        "price": 899
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "productId": 1,
+        "quantity": 2,
+        "total": 2998
+      },
+      {
+        "id": 2,
+        "productId": 3,
+        "quantity": 1,
+        "total": 1099
+      },
+      {
+        "id": 3,
+        "productId": 5,
+        "quantity": 3,
+        "total": 4197
+      },
+      {
+        "id": 4,
+        "productId": 7,
+        "quantity": 2,
+        "total": 2598
+      },
+      {
+        "id": 5,
+        "productId": 9,
+        "quantity": 4,
+        "total": 3996
+      },
+      {
+        "id": 6,
+        "productId": 11,
+        "quantity": 1,
+        "total": 799
+      }
+    ]
+  }
+  
