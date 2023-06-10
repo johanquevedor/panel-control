@@ -1,1 +1,1 @@
-# Taller2
+# panel-control
