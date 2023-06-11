@@ -19,8 +19,8 @@ const PieChart = () => {
           datasets: [
             {
               data: [33, 33, 33],
-              backgroundColor: ['#B2B2A2', '#565C56', '#FF6900'],
-              hoverBackgroundColor: ['#00000', '#979B97', '#FF8736'],
+              backgroundColor: ['#B2B2A2', '#565C56', '#10B981'],
+              hoverBackgroundColor: ['#717770', '#979B97', '#20C584'],
             },
           ],
         },

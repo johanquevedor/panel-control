@@ -6,7 +6,7 @@ const SamsungProducts = () => {
   const samsungProducts = data.products.filter((product) => product.name.includes('Galaxy'));
 
   return (
-    <div>
+    <div className="samsungpage">
       <h2>Samsung Products</h2>
       {samsungProducts.map((product) => (
         <div key={product.id} className="card">

@@ -6,6 +6,7 @@ import AppleProducts from './pages/AppleProducts';
 import SamsungProducts from './pages/SamsungProducts';
 import XiaomiProducts from './pages/XiaomiProducts';
 import Contact from './pages/Contact';
+import SalesForm from './pages/SalesForm';
 
 function App() {
   return (
@@ -17,9 +18,11 @@ function App() {
           <Route path="/samsung" element={<SamsungProducts />} />
           <Route path="/xiaomi" element={<XiaomiProducts />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/salesform" element={<SalesForm />} />
           
         </Routes>
       </div>
+    
     </BrowserRouter>
   );
 }

@@ -13,6 +13,7 @@ import PieChart from './PieChart';
 import ColumnChart from './ColumnChart';
 import { Link } from 'react-router-dom';
 import FloatingButton from '../components/FloatingButton';
+import Footer from './Footer';
 
 const Dashboard = () => {
   const [orders, setOrders] = useState([]);
@@ -55,26 +56,6 @@ const Dashboard = () => {
     </Link>
 </div>
 
-
-<div className="text-cards">
-<Link to="/apple">
-    <div className="card red">
-        <p className="second-text">33.3%</p>
-    </div>
-    </Link>
-
-    <Link to="/apple">
-    <div className="card blue">
-        <p className="textsecond-text">33.3%</p>
-    </div>
-    </Link>
-
-    <Link to="/apple">
-    <div className="card green">
-        <p className="second-text">33.3%</p>
-    </div>
-    </Link>
-</div>
 <PieChart />
 
 
@@ -181,6 +162,19 @@ const Dashboard = () => {
 
 
 <FloatingButton />
+
+
+<div class="cardsf">
+  <p class="price">
+    Missing Sales?
+  </p>
+<a href="/salesform" class="action">
+    Add Sales
+  </a>
+</div>
+
+
+<Footer />
     </div>
   );
 };
