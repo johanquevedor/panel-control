@@ -14,7 +14,7 @@ h1{
 
 
 @media (max-width: 600px){
-   .containers
+   .container
    
     h1{
         font-size: 15px;

@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Introducción a Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/johanquevedor/Node.git"
+  },
+  "keywords": [
+    "node",
+    "introduction"
+  ],
+  "author": "Johan",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.3.8"
+  }
+}

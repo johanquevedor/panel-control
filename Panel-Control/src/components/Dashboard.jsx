@@ -11,6 +11,8 @@ import samsung from '../assets/samsung.png';
 import xiaomi from '../assets/xiaomi.png';
 import PieChart from './PieChart';
 import ColumnChart from './ColumnChart';
+import { Link } from 'react-router-dom';
+import FloatingButton from '../components/FloatingButton';
 
 const Dashboard = () => {
   const [orders, setOrders] = useState([]);
@@ -30,33 +32,49 @@ const Dashboard = () => {
 
 
 <div className="cards">
+
+<Link to="/apple">
     <div className="card red">
         <img src={apple} alt="apple" />
         <p className="second-text">33.3%</p>
     </div>
+    </Link>
+
+    <Link to="/samsung">
     <div className="card blue">
-    <img src={samsung} alt="apple" />
+    <img src={samsung} alt="samsung" />
         <p className="second-text">33.3%</p>
     </div>
+    </Link>
+
+    <Link to="/xiaomi">
     <div className="card green">
-    <img src={xiaomi} alt="apple" />
+    <img src={xiaomi} alt="xiaomi" />
         <p className="second-text">33.3%</p>
     </div>
+    </Link>
 </div>
 
 
 <div className="text-cards">
+<Link to="/apple">
     <div className="card red">
         <p className="second-text">33.3%</p>
     </div>
+    </Link>
+
+    <Link to="/apple">
     <div className="card blue">
         <p className="textsecond-text">33.3%</p>
     </div>
+    </Link>
+
+    <Link to="/apple">
     <div className="card green">
         <p className="second-text">33.3%</p>
     </div>
+    </Link>
 </div>
-
 <PieChart />
 
 
@@ -156,8 +174,13 @@ const Dashboard = () => {
       ) : (
         <p>Loading...</p>
       )}
+<h2 className="ourgoal">Our Goal</h2>
 
 <ColumnChart />
+
+
+
+<FloatingButton />
     </div>
   );
 };

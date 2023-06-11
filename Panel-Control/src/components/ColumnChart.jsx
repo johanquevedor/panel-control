@@ -35,12 +35,20 @@ const ColumnChart = () => {
               label: 'Sold',
               data: [1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0],
               backgroundColor: '#565C56',
-              hoverBackgroundColor: '#FF6384',
+              hoverBackgroundColor: '#10B981',
             },
           ],
         },
         options: {
           responsive: true,
+          font:{
+            weight: 'bold',
+            size: 16,
+            family: 'Roboto',
+            style: 'normal',
+            lineHeight: 20,
+            color: '#000000',
+          },
           scales: {
             y: {
               beginAtZero: true,
