@@ -69,10 +69,13 @@ const Contact = () => {
         </div>
       )}
 
-      
+ <div className="button-goback">
 <Link to="/">
-<button>Go Back</button>
+<button className='button-goback'>Go Back</button>
 </Link>
+</div>     
+
+
     </div>
   );
 };
