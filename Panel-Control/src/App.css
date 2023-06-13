@@ -14,6 +14,13 @@ body {
   margin-bottom: -250px;
 }
 
+@media (max-width: 600px) {
+  .dashboard-page img{
+    transform: scale(30%);
+  }
+
+}
+
 
 .card {
   background-color: #fff;
@@ -23,6 +30,25 @@ body {
   width: 100%;
   margin: 80px 0 0 0px;
   transition: 400ms;
+}
+
+@media (max-width: 600px) {
+  .card{
+    transform: scale(60%);
+    margin-top: -200px;
+    margin-bottom: -50px;
+  }
+
+  .card:hover {
+    transform: scale(10%);
+  }
+
+  .card:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(10%);
+  }
+
+
 }
 
 
@@ -44,6 +70,13 @@ h2{
   font-size: 30px;
 }
 
+@media (max-width: 600px) {
+  h2{
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+}
 
 .ourgoal{
   margin-top: 300px;
@@ -52,11 +85,21 @@ h2{
   margin-bottom: -200px;
 }
 
+@media (max-width: 600px) {
+  .ourgoal{
+    display: none;
+    margin-top: -200px;
+    font-size: 30px;
+  }
+
+}
 
 .title {
   display: flex;
   align-items: center;
 }
+
+
 
 .title span {
   position: relative;
@@ -216,12 +259,30 @@ h2{
   justify-content: center
 }
 
+@media (max-width: 600px) {
+  .brand-card-container{
+    flex-direction: column;
+  }
+}
+
 
 .cards {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   transform: scale(140%);
+}
+
+@media (max-width: 600px) {
+  .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(180%);
+    padding: -40px;
+    margin-top: 100px ;
+  }
 }
 
 .cards img{
@@ -306,6 +367,13 @@ h2{
 
 }
 
+@media (max-width: 600px) {
+  .dashboard-page h1{
+    font-size: 30px;
+  }
+}
+
+
 /* Graficos ----------------------------------------------------------------------------------------------*/
 .chart-canvas {
   margin-top: 200px;
@@ -336,6 +404,12 @@ h2{
   border-radius: 20px;
   margin-bottom: 50px;
   transition: 400ms;
+}
+
+@media (max-width: 600px) {
+  .chart-container{
+    display: none;
+  }
 }
 
 .chart-container p{
@@ -513,6 +587,22 @@ textarea {
   right: 20px;
 }
 
+@media (max-width: 600px) {
+
+  .floating-button{
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 100;
+  }
+
+
+}
+
 .floating-icon {
   background-color: #000000;
   border-radius: 50%;
@@ -522,13 +612,6 @@ textarea {
   justify-content: center;
   align-items: center;
   color: #ffffff;
-}
-
-@media (max-width: 600px) {
-
-  .floating-button{
-    margin-bottom: 40px;
-  }
 }
 
 /* Go back Button ---------------------------------------------------------------------------------------*/
@@ -548,12 +631,30 @@ textarea {
 
 }
 
+@media (max-width: 600px) {
+  .button-goback{
+    margin-top: 20px;
+  }
+
+
+}
+
 /* Sales Form -------------------------------------------------------------------------------------------*/
 
 .salesimage{
   transform: scale(30%);
   margin-top: -250px;
   margin-bottom: -250px;
+}
+
+@media (max-width: 600px) {
+  .salesimage{
+    transform: scale(20%);
+    margin-bottom: -200px;
+  }
+
+
+
 }
 
 
@@ -565,6 +666,13 @@ textarea {
   justify-content: center;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .sales-form{
+    transform: scale(80%);
+  }
+}
+
 
 .sales-form label,
 .sales-form select,
@@ -578,6 +686,16 @@ textarea {
   width: 100%;
 }
 
+@media (max-width: 600px) {
+  
+.sales-form label,
+.sales-form select,
+.sales-form input {
+    transform: scale(100%);
+    width: 50%;
+  }
+}
+
 
 .sales-form button[type="submit"] {
   background-color: #1b1b1b;
@@ -588,6 +706,17 @@ textarea {
   font-size: 16px;
   cursor: pointer;
   margin-top: 20px;
+
+}
+
+@media (max-width: 600px) {
+
+  .sales-form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
 }
 
@@ -650,6 +779,26 @@ textarea {
   height: 50px;
 }
 
+@media (max-width: 600px) {
+  .cardsf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 30vh;
+    height: 25vh;
+    margin-top: -130px;
+  }
+  .action{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
 
 .price {
   font-size: 30px;
@@ -694,6 +843,27 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  .applepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .applepage .card{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    width: 100%;
+    transform: scale(100%);
+  }
+
 }
 
 .applepage .card{

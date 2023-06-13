@@ -164,11 +164,11 @@ const Dashboard = () => {
 <FloatingButton />
 
 
-<div class="cardsf">
-  <p class="price">
+<div className="cardsf">
+  <p className="price">
     Missing Sales?
   </p>
-<a href="/salesform" class="action">
+<a href="/salesform" className="action">
     Add Sales
   </a>
 </div>
